@@ -1,0 +1,39 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+header {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.task-list li.completed span {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.add-task-form input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.add-task-form button {
+  padding: 5px 10px;
+}
